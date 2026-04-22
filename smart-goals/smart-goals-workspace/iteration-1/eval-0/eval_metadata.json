@@ -1,0 +1,25 @@
+{
+  "eval_id": 0,
+  "eval_name": "transform-weekly-tasks",
+  "prompt": "Transform these weekly goals into SMART goals: 1) 80/20 of the finance app 2) Work on mobile optimization 3) Finish documentation",
+  "assertions": [
+    {
+      "name": "transforms-all-tasks",
+      "description": "All three input tasks are transformed into SMART goals",
+      "assertion_type": "contains",
+      "pattern": "SMART|Specific|Measurable|Achievable|Relevant|Time-bound|Transformed"
+    },
+    {
+      "name": "includes-deadlines",
+      "description": "Each transformed goal includes a time-bound deadline",
+      "assertion_type": "regex",
+      "pattern": "(by|due|deadline).*(Monday|Tuesday|Wednesday|Thursday|Friday|EOD)"
+    },
+    {
+      "name": "shows-before-after",
+      "description": "Output shows both original and transformed versions",
+      "assertion_type": "contains",
+      "pattern": "Original|Before|Transformed|After"
+    }
+  ]
+}

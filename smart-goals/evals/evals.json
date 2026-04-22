@@ -1,0 +1,23 @@
+{
+  "skill_name": "smart-goals",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Transform these weekly goals into SMART goals: 1) 80/20 of the finance app 2) Work on mobile optimization 3) Finish documentation",
+      "expected_output": "Three transformed SMART goals with specific deliverables, measurable criteria, and deadlines",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "/smart-goals weekly - show me before/after for my weekly tasks",
+      "expected_output": "Weekly goals table transformed with SMART format showing original vs transformed tasks",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Make these backlog items into SMART goals: 'Look into new API', 'Optimize database queries', 'Update user interface'",
+      "expected_output": "Backlog items transformed with specific actions, metrics, and deadlines",
+      "files": []
+    }
+  ]
+}
