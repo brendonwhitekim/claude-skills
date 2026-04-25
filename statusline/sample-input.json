@@ -1,0 +1,47 @@
+{
+  "cwd": "/Users/hqpsusu/Desktop/Personal Finance",
+  "session_id": "abc123",
+  "model": {
+    "id": "claude-sonnet-4-6",
+    "display_name": "Sonnet"
+  },
+  "workspace": {
+    "current_dir": "/Users/hqpsusu/Desktop/Personal Finance",
+    "project_dir": "/Users/hqpsusu/Desktop/Personal Finance",
+    "added_dirs": []
+  },
+  "version": "2.1.114",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 1.42,
+    "total_duration_ms": 1620000,
+    "total_api_duration_ms": 230000,
+    "total_lines_added": 156,
+    "total_lines_removed": 23
+  },
+  "context_window": {
+    "total_input_tokens": 152340,
+    "total_output_tokens": 45210,
+    "context_window_size": 200000,
+    "used_percentage": 54,
+    "remaining_percentage": 46,
+    "current_usage": {
+      "input_tokens": 48210,
+      "output_tokens": 7321,
+      "cache_creation_input_tokens": 12000,
+      "cache_read_input_tokens": 250000
+    }
+  },
+  "rate_limits": {
+    "five_hour": {
+      "used_percentage": 23.5,
+      "resets_at": 1738425600
+    },
+    "seven_day": {
+      "used_percentage": 41.2,
+      "resets_at": 1738857600
+    }
+  }
+}
